@@ -12,11 +12,8 @@ public class maxSubarray {
             return maxSum;
         }
         public static void main(String[] args) {
-    
             int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    
             maxSubarray obj = new maxSubarray();
-    
             System.out.println(obj.maxSubArray(nums));
         }
 }
