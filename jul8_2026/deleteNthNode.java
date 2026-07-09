@@ -1,13 +1,9 @@
 package jul8_2026;
-
-//import jul8_2026.add2Num.ListNode;
-
 public class deleteNthNode {
     // Node class
     static class ListNode {
         int val;
         ListNode next;
-
         ListNode(int val) {
             this.val = val;
             this.next = null;
